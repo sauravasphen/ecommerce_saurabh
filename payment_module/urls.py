@@ -2,4 +2,6 @@ from django.urls import path
 
 from .views import confirmpayment
 
-urlpatterns = []
+urlpatterns = [
+    path('checkout/', confirmpayment),
+]

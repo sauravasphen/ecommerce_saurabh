@@ -2,6 +2,7 @@ from django.contrib import admin
 
 from .models import PaymentGateway
 
+
 # Register your models here.
 
 class PaymentGatewayAdmin(admin.ModelAdmin):
